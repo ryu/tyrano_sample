@@ -1,6 +1,6 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="走るか寝るか飛ぶかするメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
@@ -18,6 +18,7 @@
 
 [link target=*tag_sleep] →寝る [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
+[link target=*tag_fly] →飛ぶ [endlink][r]
 [s]
 
 *tag_sleep
@@ -42,5 +43,17 @@
 陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
 【 GOOD END 】[l][cm]
+
+*tag_fly
+
+[bg storage=fly.png time=500]
+
+[cm]
+メロスは飛んだ。[l][r]
+I can fly! [l][r]
+だが飛べなかった。[r]
+
+【 BAD END 】[l][cm]
+
 
 [jump target=*start]
