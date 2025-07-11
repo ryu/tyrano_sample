@@ -1,11 +1,11 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="そんなメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「そんなメロス」[l][r]
 
 メロスは激怒した。[l][r]
 
@@ -18,6 +18,7 @@
 
 [link target=*tag_sleep] →寝る [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
+[link target=*tag_back] →戻る [endlink][r]
 [s]
 
 *tag_sleep
@@ -42,5 +43,17 @@
 陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
 【 GOOD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_back
+
+[bg storage=back.png time=500]
+
+[cm]
+メロスは戻ってきた。[l][r]
+メロスは大声で叫んだ「やりなおし！！」[r]
+
+【 ??? END? 】[l][cm]
 
 [jump target=*start]
